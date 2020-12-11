@@ -83,6 +83,7 @@ const createSeedData = async () => {
 };
 
 module.exports = async () => {
+  await setDefaultPermissions();
   const shouldSetDefaultPermissions = await isFirstRun();
   if (shouldSetDefaultPermissions) {
     await setDefaultPermissions();
