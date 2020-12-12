@@ -1,5 +1,9 @@
 # Strapi Starter Blog
 
+Used from https://strapi.io/blog/strapi-starter-angular-blog as a starting point
+
+A fork from: https://github.com/strapi/strapi-legacy-blog
+
 Strapi starter for creating a blog with Strapi.
 
 This starter contains the content types and configuration to get you up and running with a simple blog.
